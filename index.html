@@ -5,14 +5,55 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Sign-Up Form</title>
 		<link rel="stylesheet" href="styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<div class="container">
 			<aside class="sidebar">
 				<div class="logo">
-                    <img src="images/odin-logo.png" alt="ODIN LOGO">ODIN</div>
+					<img src="images/odin-logo.png" alt="ODIN LOGO" />ODIN
+				</div>
 			</aside>
-			<main></main>
+			<main>
+				<div>
+					<h3>
+						Sign up to our ODIN Tungtungtung Sahur. This is the best
+						tungtungtung sahur you'll ever come across.
+					</h3>
+				</div>
+				<div>
+					<h3>Sign up now!</h3>
+				</div>
+
+				<div class="form">
+					<form action="post">
+						<div>
+							<label for="firstname">FIRST NAME</label>
+							<input type="text" id="firstname" name="first_name" />
+						</div>
+
+						<div>
+							<label for="lastname">LAST NAME</label>
+							<input type="text" id="lastname" name="last_name" />
+						</div>
+
+						<div>
+							<label for="password">PASSWORD</label>
+							<input type="text" id="password" name="password" />
+						</div>
+
+						<div>
+							<label for="confirmpass">CONFIRM PASSWORD</label>
+							<input type="text" id="confirmpass" name="confirm_pass" />
+						</div>
+					</form>
+				</div>
+			</main>
 		</div>
 	</body>
 </html>
